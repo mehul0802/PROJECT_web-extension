@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    min-width: 400px;
+    background-color: rgb(243, 242, 193);
+}
+
+h1 :hover{
+
+    color:rgb(148, 125, 145);
+}
+
+h1 {
+    font-weight:bolder;
+    text-align: center;
+    color:rgb(149, 208, 181);
+}
+
+#input-btn{
+    border-radius: 5px;
+    border: 1px solid rgb(149, 208, 181);
+    color: white;
+    font-size: bolder ;
+    background-color: rgb(149, 208, 181);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#delete-btn{
+    background-color: rgb(255, 255, 255);
+    color:rgb(149, 208, 181);
+    border-radius: 5px;
+    border: 1px solid rgb(149, 208, 181);
+    font-size: bolder ;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(149, 208, 181);
+    border-radius: 30px;
+    padding-left : 15px;
+}
+
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a{
+    font-size: 15px;
+    font-weight: bolder;
+    color:rgb(149, 208, 181);
+    text-decoration-line: none;
+}
